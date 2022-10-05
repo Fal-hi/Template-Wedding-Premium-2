@@ -383,30 +383,10 @@ section#header {
 }
 
 /* * Gallery */
-.gallery img.background-gallery {
-  z-index: 1;
-  width: 100%;
-  height: 750px;
-  object-fit: cover;
-  -o-object-fit: cover;
-  object-position: center;
-  -o-object-position: center;
-  overflow: hidden;
-  filter: brightness(50%);
-  -webkit-filter: brightness(50%);
-}
-
 .gallery h3 {
   text-align: center;
-  color: #efe8e8;
-}
-
-.gallery .container {
-  z-index: 2;
-  position: absolute;
-  top: 208rem;
-  left: 3%;
-  right: 3%;
+  color: #ffffff;
+  padding-top: 1rem;
 }
 
 .gallery .list-images {
@@ -472,7 +452,7 @@ section#header {
 }
 
 .acara .container {
-  padding: 8rem 0;
+  padding: 3rem 0;
 }
 
 .acara .tanggal {
@@ -860,10 +840,6 @@ footer img {
   .pengantin .wanita .ortu .card {
     top: 150rem;
   }
-  /* * Gallery */
-  .gallery .container {
-    top: 182rem;
-  }
   /* * Harapan */
   .lokasi .harapan {
     padding: 3rem 0 10rem 0;
@@ -944,13 +920,8 @@ footer img {
     top: 170rem;
   }
   /* * Gallery */
-  .gallery img.background-gallery {
-    height: 525px;
-  }
-  .gallery .container {
-    top: 200rem;
-    left: 0;
-    right: 0;
+  .gallery h3 {
+    font-size: 1.5rem;
   }
   .gallery .list-images .gallery1 {
     height: auto;
@@ -1222,15 +1193,8 @@ footer img {
     right: -1rem;
   }
   /* * Gallery */
-  .gallery img.background-gallery {
-    height: 820px;
-  }
   .gallery .container img.garis {
     width: 70%;
-  }
-  .gallery .container {
-    top: 147rem;
-    left: 0%;
   }
   .gallery .list-images {
     backdrop-filter: blur(1px);
